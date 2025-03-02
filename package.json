@@ -1,0 +1,27 @@
+{
+  "name": "cursavoi-proect-main",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitri286/Cursavoi-proect.git"
+  },
+  "keywords": [
+    "1793"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmitri286/Cursavoi-proect/issues"
+  },
+  "homepage": "https://github.com/Dmitri286/Cursavoi-proect#readme",
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.3",
+    "parcel": "^2.13.3"
+  }
+}
