@@ -1,0 +1,40 @@
+.card {
+    padding: 7.25rem 0;
+}
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5.625rem;
+}
+.card-content:last-child{
+    margin-bottom: 0;
+}
+.card-wrap {
+    width: 23.125rem;
+    margin-right: 1.875rem;
+}
+.card-wrap:last-child{
+    margin-right: 0;
+}
+.card-img {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: auto;
+    margin-bottom: 1.8125rem;
+}
+.card-text {
+    font-size: $_24px;
+    font-weight: 900;
+    text-align: center;
+    color: #2D3033;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+}
+.card-description {
+    text-align: center;
+    p{
+        font-size: $_18px;
+        font-weight: 400;
+        color: #6C7279;
+    }
+}

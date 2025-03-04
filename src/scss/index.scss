@@ -1,0 +1,29 @@
+@import '../scss/fonts';
+@import '../scss/icons';
+@import '../scss/mixins';
+@import '../scss/variables';
+@import '../scss/header.scss';
+@import '../scss/card.scss';
+@import '../scss/our-team.scss';
+@import '../scss/tablet.scss';
+@import '../scss/integer.scss';
+@import '../scss/download.scss';
+@import '../scss/footer.scss';
+* {
+    margin: 0 ;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Raleway", serif;
+}
+.container {
+    padding: 0 15px;
+    margin: auto;
+    max-width: 1170px;
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
+}
