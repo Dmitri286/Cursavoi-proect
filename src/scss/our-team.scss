@@ -1,0 +1,72 @@
+.our-team {
+    padding: 7.125rem 0;
+}
+.our-team_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.our-team_card {
+    width: 16.875rem;
+}
+.our-team_img {
+    margin-bottom: 1.875rem;
+}
+.our-team_text {
+    font-size: $_24px;
+    font-weight: 700;
+    color: #2D3033;
+    margin-bottom: 0.3125rem;
+}
+.our-team-title {
+    font-size: $_18px;
+    font-weight: 400;
+    color: #FF4343;
+    text-transform: uppercase;
+    margin-bottom: 1.125rem;
+}
+.our-team_description {
+    margin-bottom: 2rem;
+    p{
+        font-size: $_18px;
+        font-weight: 400;
+        color: #6C7279;
+    }
+}
+.our-team_navigation {
+    width: 7.9375rem;
+}
+.our-team_list {
+    display: flex;
+    justify-content: space-between;
+}
+.our-team-list_item {
+    margin-right: 6px;
+}
+.our-team-list_item:last-child{
+    margin-right: 0;
+}
+.icons {
+    color: #C6CBCD;
+}
+ .fa-facebook-f {
+    content: '\f39e';
+    color: #C6CBCD;
+    font-size: $_18px;
+    border: 1px solid #C6CBCD;
+    padding: 11px 15px 11px 14px;
+}
+
+ .fa-twitter {
+    content: '\f099';
+    font-size: $_18px;
+    color: #C6CBCD;
+    border: 1px solid #C6CBCD;
+    padding: 11px;
+}
+ .fa-linkedin {
+    content: '\f08c';
+    font-size: $_18px;
+    color: #C6CBCD;
+    border: 1px solid #C6CBCD;
+    padding: 11px 13px 11px 12px;
+}
