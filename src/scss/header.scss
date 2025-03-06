@@ -5,18 +5,24 @@
     background-size: cover;
     background-position: center;
 }
+.header::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #252B49;
+    opacity: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 9.6875rem;
-    &::before{
-        content: '';
-        position: absolute;
-        top: 100%;
-        left: 0;
-        border-bottom: 3px solid #656980;
-    }
+    border-bottom: 1px solid #BABBC5;
+    padding-bottom: 2rem;
 }
 .logo {
     font-size: 2.5rem;
@@ -28,25 +34,27 @@
         color: #ffffff;
     }
 }
+.navigation{
+    width: 41.875rem;
+}
 .navigation-list {
     display: flex;
+    justify-content: space-evenly;
 }
 .navigation-list_item{
-    display: flex;
     width: 8.375rem;
     text-align: center;
 }
 .link{
-    position: absolute;
     font-size: $_13px;
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
-    padding: 2rem 0
+   
 }
 .link:hover{
-    content: '';
-        
+    content: '';  
+    padding: 2.8rem 0;  
     border-bottom: 0.1875rem solid #BABBC5;
 }
 .header-wrap{
@@ -56,25 +64,15 @@
     font-size: $_64px;
     font-weight: 900;
     color: #FFFFFF;
+    text-align: center;
     margin-bottom: 2rem;
 }
 .header-description {
-    
     margin-bottom: 5rem;
     p{
         font-size: $_24px;
         font-weight: 400;
         color: #FFFFFF;
+        text-align: center;
     }
-}
-.header-find-out{
-    
-
-    .header-find{
-        font-size: $_24px;
-        font-weight: 900;
-        color: #ffffff;
-        padding: 16px 60px;
-        background-color: #FF4343;
-        }
 }
