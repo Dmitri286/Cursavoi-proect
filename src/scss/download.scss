@@ -13,16 +13,15 @@
     font-weight: 400;
     margin-bottom: 3rem;
 }
-.download-btn {
+.download-link {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 23.125rem;
     text-align: center;
     font-size: $_24px;
     font-weight: 900;
     color:  #ffffff;
-    padding: 1rem;
+    padding: 1rem 0;
     background-color: #FF4343;
     text-transform: uppercase;
 }
