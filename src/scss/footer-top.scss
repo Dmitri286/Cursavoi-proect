@@ -1,0 +1,35 @@
+.footer-top {
+    padding: 4.375rem 0;
+    background-color: #353C65;
+}
+.footer-top_content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content {
+    width: 23.125rem;
+}
+.footer-text{
+    text-align: center;
+    font-size: $_18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1.8125rem;
+    text-transform: uppercase;
+}
+.footer-description {
+    p{
+        text-align: center;
+        font-size: $_18px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+}
+.Share-with_list {
+    display: flex;
+    width: 10.6875rem;
+    margin: auto;
+}
+.Share-with_list-item {
+    margin-right: 1.6875rem;
+}
