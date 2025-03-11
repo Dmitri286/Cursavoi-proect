@@ -3,13 +3,29 @@
 }
 .download-text {
     text-align: center;
-    font-size: $_30px;
+    font-size: 1.875rem;
     font-weight: 500;
     margin-bottom: 0.7rem;
 }
 .download-title {
     text-align: center;
-    font-size: $_18px;
+    font-size: 1.125rem;
     font-weight: 400;
     margin-bottom: 3rem;
+}
+@media (max-width: 1024px){
+    .download-text{
+        font-size: 24px;
+    }
+    .download-title{
+        font-size: 14px;
+    }
+}
+@media (max-width: 320px){
+    .download-text{
+        font-size: 18px;
+    }
+    .download-title{
+        font-size: 13px;
+    }
 }

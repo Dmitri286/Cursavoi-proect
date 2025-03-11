@@ -2,23 +2,29 @@
     padding: 7.125rem 0;
 }
 .our-team_wrap {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4 , 270px);
+    grid-template-rows: repeat(1 , 1fr);
+    grid-column-gap: 30px;
 }
 .our-team_card {
-    width: 16.875rem;
+    
 }
 .our-team_img {
+    img{
+        width: 270px;
+        height: 270px;
+    }
     margin-bottom: 1.875rem;
 }
 .our-team_text {
-    font-size: $_24px;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #2D3033;
     margin-bottom: 0.3125rem;
 }
 .our-team-title {
-    font-size: $_18px;
+    font-size: 1.125rem;
     font-weight: 400;
     color: #FF4343;
     text-transform: uppercase;
@@ -27,7 +33,7 @@
 .our-team_description {
     margin-bottom: 2rem;
     p{
-        font-size: $_18px;
+        font-size: 1.125rem;
         font-weight: 400;
         color: #6C7279;
     }
@@ -51,22 +57,64 @@
  .fa-facebook-f {
     content: '\f39e';
     color: #C6CBCD;
-    font-size: $_18px;
+    font-size: 18px;
     border: 1px solid #C6CBCD;
     padding: 11px 15px 11px 14px;
 }
 
  .fa-twitter {
     content: '\f099';
-    font-size: $_18px;
+    font-size: 18px;
     color: #C6CBCD;
     border: 1px solid #C6CBCD;
     padding: 11px;
 }
  .fa-linkedin {
     content: '\f08c';
-    font-size: $_18px;
+    font-size: 18px;
     color: #C6CBCD;
     border: 1px solid #C6CBCD;
     padding: 11px 13px 11px 12px;
+}
+@media (max-width: 1024px){
+    .our-team_wrap{
+        grid-template-columns: repeat(4 , 227px);
+        grid-template-rows: repeat(1 , 1fr);
+        grid-column-gap: 25px;
+    }
+    .our-team_img img{
+        width: 227px;
+        height: 227px;
+    }
+    .our-team_text{
+        font-size: 18px;
+    }
+    .our-team-title{
+        font-size: 14px;
+    }
+    .our-team_description p{
+        font-size: 14px;
+    }
+    .our-team_card{
+        margin-right: 28px;
+    }
+    .our-team_card:last-child{
+        margin-right: 0;
+    }
+    .fa-brands{
+        font-size: 13px;
+    }
+}
+@media (max-width: 320px){
+    .our-team_wrap{
+        grid-template-columns: repeat(1 , 280px);
+        grid-template-rows: repeat(4 , 1fr);
+        text-align: center;
+    }
+    .our-team_card{
+        margin-bottom: 56px;
+    }
+    .our-team_card:last-child{
+        margin-bottom: 0;
+    }
 }

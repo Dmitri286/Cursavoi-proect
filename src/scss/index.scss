@@ -1,12 +1,14 @@
-@import '../scss/icons';
-@import '../scss/mixins';
-@import '../scss/variables';
-@import '../scss/header.scss';
-@import '../scss/card.scss';
-@import '../scss/our-team.scss';
-@import '../scss/download.scss';
-@import '../scss/footer-top.scss';
-@import '../scss/footer.scss';
+@use  '../scss/icons';
+@use  '../scss/mixins';
+@use  '../scss/variables';
+@use  '../scss/header.scss';
+@use  '../scss/card.scss';
+@use  '../scss/work.scss';
+@use  '../scss/our-team.scss';
+@use  '../scss/slider.scss';
+@use  '../scss/download.scss';
+@use  '../scss/footer-top.scss';
+@use  '../scss/footer.scss';
 * {
     margin: 0 ;
     padding: 0;
@@ -16,6 +18,10 @@
 }
 html{
     font-family: "Raleway", serif;
+}
+html,body{
+    width: 100%;
+    overflow-x: hidden;
 }
 .container {
     padding: 0 15px;
@@ -30,10 +36,29 @@ html{
     margin: auto;
     width: 23.125rem;
     text-align: center;
-    font-size: $_24px;
+    font-size: 1.5rem;
     font-weight: 900;
     color:  #ffffff;
     padding: 1rem 0;
-    background-color: #FF4343;
+    background-color: rgb(255, 67, 67);
     text-transform: uppercase;
+}
+.download-link:hover{
+    background-color: rgb(231, 20, 20);
+}
+.download-link:active{
+    box-shadow: 5px 5px 5px 5px rgba(255, 67, 67);
+
+}
+@media (max-width: 1024px){
+    .download-link{
+        width: 314px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 320px){
+    .download-link{
+        width: 280px;
+        font-size: 24px;
+    }
 }

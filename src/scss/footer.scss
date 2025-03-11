@@ -7,7 +7,7 @@
     margin: auto;
     p{
         text-align: center;
-        font-size: $_18px;
+        font-size: 1.125rem;
         font-weight: 400;
         color: #808080;
     }
@@ -15,4 +15,17 @@
 }
 .footer-span {
     color: #ffffff;
+}
+@media (max-width: 1024px){
+    .footer-description{
+        width: 314px;
+        p{
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width: 320px){
+    .footer-description{
+        width: 280px;
+    }
 }

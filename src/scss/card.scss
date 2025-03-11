@@ -2,28 +2,22 @@
     padding: 17.25rem 0;
 }
 .card-content {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5.625rem;
+    display: grid;
+    grid-template-columns: repeat(3 , 370px);
+    grid-template-rows: repeat(2 , 1fr);
 }
-.card-content:last-child{
-    margin-bottom: 0;
-}
-.card-wrap {
-    width: 23.125rem;
-    margin-right: 1.875rem;
-}
-.card-wrap:last-child{
-    margin-right: 0;
+.card-wrap{
+    margin-bottom: 89px;
+    padding: 0 15px;
 }
 .card-img {
-    width: 6.25rem;
-    height: 6.25rem;
+    width: 100px;
+    height: 100px;
     margin: auto;
     margin-bottom: 1.8125rem;
 }
 .card-text {
-    font-size: $_24px;
+    font-size: 1.5rem;
     font-weight: 900;
     text-align: center;
     color: #2D3033;
@@ -33,8 +27,34 @@
 .card-description {
     text-align: center;
     p{
-        font-size: $_18px;
+        font-size: 1.125rem;
         font-weight: 400;
         color: #6C7279;
+    }
+}
+@media (max-width: 1024px){
+    .card-content {
+        grid-template-columns: repeat(3 , 315px);
+        grid-template-rows: repeat(2 , 1fr);
+    }
+    .card-img{
+        width: 85px;
+        height: 85px;
+    }
+    .card-text{
+        font-size: 1.125rem;
+    }
+    .card-description p{
+        font-size: 0.875rem;
+    }
+}
+@media (max-width: 320px){
+    .card-content{
+        grid-template-columns: repeat(1 , 279px);
+        grid-template-rows: repeat(6 , 1fr);
+    }
+    .card-img{
+        width: 75px;
+        height: 75px;
     }
 }

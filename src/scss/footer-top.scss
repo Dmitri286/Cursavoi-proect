@@ -7,11 +7,11 @@
     justify-content: space-between;
 }
 .footer-content {
-    width: 23.125rem;
+    width: 370px;
 }
 .footer-top_text{
     text-align: center;
-    font-size: $_18px;
+    font-size: 1.125rem;
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 1.8125rem;
@@ -20,7 +20,7 @@
 .footer-top_description {
     p{
         text-align: center;
-        font-size: $_18px;
+        font-size: 1.125rem;
         font-weight: 400;
         color: #ffffff;
     }
@@ -32,4 +32,30 @@
 }
 .Share-with_list-item {
     margin-right: 1.6875rem;
+}
+@media (max-width: 1024px){
+    .footer-content{
+        width: 315px;
+    }
+    .footer-top_text{
+        
+        font-size: 14px;
+    }
+    .footer-top_description{
+        p{
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width: 320px){
+    .footer-top_content{
+        display: block;
+        width: 280px;
+    }
+    .footer-content{
+        margin-bottom: 70px;
+    }
+    .footer-content:last-child{
+        margin-bottom: 0;
+    }
 }
