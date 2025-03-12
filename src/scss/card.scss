@@ -5,16 +5,17 @@
     display: grid;
     grid-template-columns: repeat(3 , 370px);
     grid-template-rows: repeat(2 , 1fr);
-}
-.card-wrap{
-    margin-bottom: 89px;
-    padding: 0 15px;
+    grid-column-gap: 31px;
+    grid-row-gap: 89px;
 }
 .card-img {
     width: 100px;
     height: 100px;
     margin: auto;
     margin-bottom: 1.8125rem;
+}
+.card-img img{
+    
 }
 .card-text {
     font-size: 1.5rem;

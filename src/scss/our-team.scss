@@ -8,7 +8,7 @@
     grid-column-gap: 30px;
 }
 .our-team_card {
-    
+    width: 270px;
 }
 .our-team_img {
     img{
@@ -39,7 +39,7 @@
     }
 }
 .our-team_navigation {
-    width: 7.9375rem;
+    width: 9rem;
 }
 .our-team_list {
     display: flex;
@@ -77,6 +77,9 @@
     padding: 11px 13px 11px 12px;
 }
 @media (max-width: 1024px){
+    .our-team_card {
+        width: 227px;
+    }
     .our-team_wrap{
         grid-template-columns: repeat(4 , 227px);
         grid-template-rows: repeat(1 , 1fr);
@@ -112,6 +115,7 @@
         text-align: center;
     }
     .our-team_card{
+        width: 280px;
         margin-bottom: 56px;
     }
     .our-team_card:last-child{
