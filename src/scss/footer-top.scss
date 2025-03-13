@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
 }
-.footer-content {
+.footer-content{
     width: 370px;
 }
 .footer-top_text{
@@ -38,10 +38,11 @@
         width: 315px;
     }
     .footer-top_text{
-        
+        width: 315px;
         font-size: 14px;
     }
     .footer-top_description{
+        width: 315px;
         p{
             font-size: 14px;
         }
@@ -50,12 +51,24 @@
 @media (max-width: 320px){
     .footer-top_content{
         display: block;
-        width: 280px;
+        width: 290px;
     }
     .footer-content{
         margin-bottom: 70px;
     }
     .footer-content:last-child{
         margin-bottom: 0;
+    }
+    .footer-content{
+        width: 290px;
+    }
+    .footer-top_text{
+        width: 290px;
+    }
+    .footer-top_description{
+        width: 290px;
+    }
+    .Share-with_navigation{
+        width: 290px;
     }
 }

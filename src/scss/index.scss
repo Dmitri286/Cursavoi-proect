@@ -15,14 +15,15 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 html{
     font-family: "Raleway", serif;
 }
-html,body{
-    width: 100%;
-    overflow-x: hidden;
-}
+// html,body{
+//     width: 100%;
+//     overflow-x: hidden;
+// }
 .container {
     padding: 0 15px;
     margin: auto;
